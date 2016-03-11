@@ -13,6 +13,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swt", "swt.vcxproj", "{1584
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wavelib", "wavelib.vcxproj", "{F2026A8E-21BA-48C4-B916-7D500FB847AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dwp", "dwp.vcxproj", "{AE2D7A15-E002-45F4-922B-0C1A05C4BE9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mwp", "mwp.vcxproj", "{800FF0FE-173B-4F1C-8754-860BCBDB44B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wtr", "wtr.vcxproj", "{ED9B9409-2E83-4E8B-8B0E-D76081620BA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +37,18 @@ Global
 		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Debug|Win32.Build.0 = Debug|Win32
 		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Release|Win32.ActiveCfg = Release|Win32
 		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Release|Win32.Build.0 = Release|Win32
+		{AE2D7A15-E002-45F4-922B-0C1A05C4BE9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE2D7A15-E002-45F4-922B-0C1A05C4BE9F}.Debug|Win32.Build.0 = Debug|Win32
+		{AE2D7A15-E002-45F4-922B-0C1A05C4BE9F}.Release|Win32.ActiveCfg = Release|Win32
+		{AE2D7A15-E002-45F4-922B-0C1A05C4BE9F}.Release|Win32.Build.0 = Release|Win32
+		{800FF0FE-173B-4F1C-8754-860BCBDB44B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{800FF0FE-173B-4F1C-8754-860BCBDB44B5}.Debug|Win32.Build.0 = Debug|Win32
+		{800FF0FE-173B-4F1C-8754-860BCBDB44B5}.Release|Win32.ActiveCfg = Release|Win32
+		{800FF0FE-173B-4F1C-8754-860BCBDB44B5}.Release|Win32.Build.0 = Release|Win32
+		{ED9B9409-2E83-4E8B-8B0E-D76081620BA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED9B9409-2E83-4E8B-8B0E-D76081620BA8}.Debug|Win32.Build.0 = Debug|Win32
+		{ED9B9409-2E83-4E8B-8B0E-D76081620BA8}.Release|Win32.ActiveCfg = Release|Win32
+		{ED9B9409-2E83-4E8B-8B0E-D76081620BA8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
