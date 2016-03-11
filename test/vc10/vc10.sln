@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dwt", "dwt.vcxproj", "{FF48C1F8-91D6-4631-8746-1612AC4156E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC} = {F2026A8E-21BA-48C4-B916-7D500FB847AC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swt", "swt.vcxproj", "{1584FE21-66B8-462F-841E-6B1F95198F1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC} = {F2026A8E-21BA-48C4-B916-7D500FB847AC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wavelib", "wavelib.vcxproj", "{F2026A8E-21BA-48C4-B916-7D500FB847AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF48C1F8-91D6-4631-8746-1612AC4156E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF48C1F8-91D6-4631-8746-1612AC4156E2}.Debug|Win32.Build.0 = Debug|Win32
+		{FF48C1F8-91D6-4631-8746-1612AC4156E2}.Release|Win32.ActiveCfg = Release|Win32
+		{FF48C1F8-91D6-4631-8746-1612AC4156E2}.Release|Win32.Build.0 = Release|Win32
+		{1584FE21-66B8-462F-841E-6B1F95198F1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1584FE21-66B8-462F-841E-6B1F95198F1C}.Debug|Win32.Build.0 = Debug|Win32
+		{1584FE21-66B8-462F-841E-6B1F95198F1C}.Release|Win32.ActiveCfg = Release|Win32
+		{1584FE21-66B8-462F-841E-6B1F95198F1C}.Release|Win32.Build.0 = Release|Win32
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Debug|Win32.Build.0 = Debug|Win32
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Release|Win32.ActiveCfg = Release|Win32
+		{F2026A8E-21BA-48C4-B916-7D500FB847AC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

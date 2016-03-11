@@ -3,6 +3,7 @@
 #include <string.h>
 #include <math.h>
 #include "../header/wavelib.h"
+#define FILE_SIGNAL		"../signal.txt"
 
 double absmax(double *array, int N) {
 	double max;
@@ -30,7 +31,7 @@ int main() {
 	char *name = "db4";
 	obj = wave_init(name);// Initialize the wavelet
 
-	ifp = fopen("signal.txt", "r");
+	ifp = fopen(FILE_SIGNAL, "r");
 	i = 0;
 	if (!ifp) {
 		printf("Cannot Open File");

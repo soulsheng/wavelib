@@ -1,0 +1,6 @@
+/test/vc10/ipch
+/test/vc10/Debug
+/test/vc10/*.sdf
+/test/vc10/*.opensdf
+/test/vc10/*.suo
+/lib
