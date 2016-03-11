@@ -61,7 +61,7 @@ int main() {
 	//MODWT output can be accessed using wt->output vector. Use wt_summary to find out how to extract appx and detail coefficients
 	
 	for (i = 0; i < wt->outlength; ++i) {
-		printf("%g ",wt->output[i]);
+	//	printf("%g ",wt->output[i]);
 	}
 
 	imodwt(wt, out);// Perform ISWT (if needed)
